@@ -13,7 +13,7 @@
 	*/
 
 	var defaultKey		= 'SojmawB2gxBcoy4UqwR5jEbZzgkHdRfGEG7gTjvdJgYQjSl3', // Unique master Xively API key to be used as a default
-		defaultFeeds	= [87872!CurrentPower,87872!_CylinderLowerTemp,87872!_CylinderUpperTemp], // Comma separated array of Xively Feed ID numbers
+		defaultFeeds	= [87872!CurrentPower], // ,87872!_CylinderLowerTemp,87872!_CylinderUpperTemp Comma separated array of Xively Feed ID numbers
 		applicationName	= 'SJComputing', // Replaces Xively logo in the header
 		dataDuration	= '6hours', // Default duration of data to be displayed // ref: https://xively.com/dev/docs/api/data/read/historical_data/
 		dataInterval	= 10800, // Default interval for data to be displayed (in seconds)
